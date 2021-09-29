@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/background.JPG");
+    color: white;
+
+}
+
+.hero-img {
+    margin-right: 40px;
+}
+
+.yellow-ccm {
+    color: #F6B135;
+}
+
+.red-ccm {
+    color: #E74425;
+}
+
+.dark-red-ccm {
+    color: #8E1814;
+}
+
+.section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.academic {
+    font-weight: bold;
+}
+
+.university {
+    font-weight: normal;
+    color: #bdb29d;
+}
+
+.title {
+    font-size: 1.4rem;
+    color: #E74425;
+    display: none;
+}
+
+.list-group-item {
+    padding: 1.2rem 1.5rem;
+    color: #F6B135;
+    background-color: #38352c;
+}
+
+.table {
+    color: #F6B135;
+    --bs-table-bg: #38352c;
+    --bs-table-hover-color: #bdb29d;
+    border-color: #bdb29d;
+}
+
+
+element.style {
+}
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: currentColor;
+}
+.table>:not(caption)>*>* {
+    padding: .5rem .5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+th {
+    color: #8c7a59;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
