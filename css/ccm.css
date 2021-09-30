@@ -62,9 +62,6 @@ body {
     border-color: #bdb29d;
 }
 
-
-element.style {
-}
 .table>:not(:last-child)>:last-child>* {
     border-bottom-color: currentColor;
 }
@@ -90,9 +87,6 @@ tbody, td, tfoot, th, thead, tr {
     color: #ffda85;
 }
 
-
-element.style {
-}
 .card-body {
     flex: 1 1 auto;
     padding: 1rem 1rem;
