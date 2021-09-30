@@ -5,6 +5,13 @@ body {
 
 }
 
+.hero-container {
+    display: inline-flex !important;
+    justify-content: center !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
 .hero-img {
     margin-right: 40px;
 }
@@ -94,6 +101,14 @@ element.style {
     color: #d4bf89;
 }
 
+/*<ul class="list-group list-group-horizontal flex-fill justify-content-center">*/
+.organizers {
+    flex-direction: row;
+    justify-content: center!important;
+    flex: 1 1 auto!important;
+}
+
+
 .nav-link {
     color: #7d7763;
 }
@@ -128,4 +143,32 @@ element.style {
 .footer {
     background-color: #F6B135;
     padding: 40px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+
+    /*<div class="flex justify-content-center d-inline-flex p-5">*/
+    .hero-container {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+        text-align: center;
+    }
+
+    .hero-img {
+        justify-content: center !important;
+        max-height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .organizers {
+        flex-direction: column;
+        justify-content: center!important;
+        flex: 1 1 auto!important;
+    }
+
+
 }
