@@ -14,6 +14,7 @@ body {
 
 .hero-img {
     margin-right: 40px;
+    max-height: 300px;
 }
 
 .yellow-ccm {
@@ -158,11 +159,11 @@ element.style {
 
     .hero-img {
         justify-content: center !important;
-        max-height: 200px;
+        padding-bottom: 30px;
     }
 
     .hero-text {
-        margin-top: 40px;
+        margin-top: 50px;
         justify-content: center;
     }
 
