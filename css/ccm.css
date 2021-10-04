@@ -5,6 +5,15 @@ body {
 
 }
 
+a {
+    color: #fff2d0;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
 .hero-container {
     display: inline-flex !important;
     justify-content: center !important;
@@ -166,4 +175,5 @@ tbody, td, tfoot, th, thead, tr {
         justify-content: center!important;
         flex: 1 1 auto!important;
     }
+
 }
